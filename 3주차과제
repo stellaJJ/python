@@ -1,4 +1,4 @@
-def show_exchange(amount):
+def exchange(amount):
   print('잔돈',amount,'원')
 
   n500=amount//500
@@ -17,5 +17,5 @@ def show_exchange(amount):
 
 total_cost=int(input('총금액?'))
 payment=int(input('지불한금액?'))
-exchange=payment-total_cost
-show_exchange(exchange)
+change=payment-total_cost
+exchange(change)
